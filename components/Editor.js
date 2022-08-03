@@ -426,7 +426,7 @@ class Editor extends React.Component {
           {`
             .editor {
               background: ${COLORS.BLACK};
-              border: 3px solid ${COLORS.SECONDARY};
+              border: 1px solid ${COLORS.SECONDARY};
               border-radius: 8px;
               padding: 16px;
             }

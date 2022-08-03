@@ -310,7 +310,7 @@ class Carbon extends React.PureComponent {
               min-width: inherit;
               position: relative;
               z-index: 1;
-              border-radius: 5px;
+              border-radius: 1rem;
               ${config.dropShadow
                 ? `box-shadow: 0 ${config.dropShadowOffsetY} ${config.dropShadowBlurRadius} rgba(0, 0, 0, 0.55)`
                 : ''};
@@ -319,8 +319,8 @@ class Carbon extends React.PureComponent {
             .container :global(.CodeMirror__container .CodeMirror) {
               height: auto;
               min-width: inherit;
-              padding: 18px 18px;
-              padding-left: 12px;
+              padding: 1.5rem 2rem;
+              padding-left: 1.5rem;
               ${config.lineNumbers ? 'padding-left: 12px;' : ''} border-radius: 5px;
               font-family: ${config.fontFamily}, monospace !important;
               font-size: ${config.fontSize};
@@ -328,6 +328,7 @@ class Carbon extends React.PureComponent {
               font-variant-ligatures: contextual;
               font-feature-settings: 'calt' 1;
               user-select: none;
+              border-radius: 1rem;
             }
 
             .container :global(.CodeMirror-scroll),
